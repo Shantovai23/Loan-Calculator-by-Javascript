@@ -29,7 +29,7 @@
                                 <div class="input-group-prepend">
                                     <span class="input-group-text">$</span>
                                 </div>
-                                <input type="number" class="form-control" placeholder="Loan Amount" id="amount">
+                                <input type="number" class="form-control" placeholder="Loan Amount" id="amount" step="any" min="0">
                                 <div class="input-group-append">
                                     <span class="input-group-text">.00</span>
                                 </div>
@@ -40,11 +40,11 @@
                                 <div class="input-group-prepend">
                                     <span class="input-group-text">%</span>
                                 </div>
-                                <input type="number" class="form-control" placeholder="Interest" id="interest">
+                                <input type="number" class="form-control" placeholder="Interest" id="interest" step="any" min="0">
                             </div>
                         </div>
                         <div class="form-group">
-                            <input type="number" class="form-control" placeholder="Years To Repay" id="years">
+                            <input type="number" class="form-control" placeholder="Years To Repay" id="years" step="any" min="0">
                         </div>
                         <div class="form-group">
                             <input type="submit" class="btn btn-warning btn-block" value="Calculate">
